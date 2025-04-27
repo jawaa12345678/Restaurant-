@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    background-image: url(img/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    height: 500px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.627);
+    border-radius: 20px;
+    box-shadow:2px 2px 10px white;
+    
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+}
+.card h1{
+    text-align: center;
+  color: orangered;
+  padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card input{
+    
+    margin-bottom:  30px;
+
+    height: 45px;
+    width: 330px;
+    /* margin-top: 35px;
+    margin-left: 30px; */
+    border-radius: 30px;
+    background: transparent;
+    box-shadow: 1px 1px 10px orangered;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.card a{
+    padding: 10px;
+    text-decoration: none;
+    color: black !important;
+    text-align: center;
+    background-color: white;
+
+    width: 330px;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px orangered;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  
+
+}
+.card a:hover{
+    background-color: orangered;
+}

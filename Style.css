@@ -1,0 +1,103 @@
+.nav{
+    display: flex;
+    align-items: center;
+    
+    
+    background-color: rgb(185, 49, 0);
+    color: white;
+
+}
+.nav-items{
+    display: flex;
+    
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    
+    
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 80px;
+
+}
+.nav a:hover{
+    background-color: rgba(0, 0, 0, 0.315);
+
+    border-radius: 30px;
+}
+.nav h1{
+   
+    margin-left: 35px;
+    font-size: 40px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav button{
+    background:none ;
+ border-radius: 20px;
+ border-color: white;
+    color: white;
+ 
+ padding: 10px;
+    height: 40px;
+    cursor: pointer;
+
+}
+.nav button:hover{
+    background-color: black;
+}
+.container{
+    background-image: url(/img/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:750px;
+    
+    
+}
+.title h1{
+    text-align: center;
+    
+    color: white;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 5px 5px 10px orange;
+    margin-top: -8px;
+                
+    
+    
+}
+.menu{
+    font-family: sans-serif;
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 50px;
+   
+}
+.card1,.card2{
+ 
+   
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.725);
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 1px;
+   
+
+}
+.menu ul{
+    list-style-type: square;
+    
+}
+.menu ul li{
+    padding-bottom:10px;    
+}
